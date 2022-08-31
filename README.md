@@ -1,2 +1,3 @@
 # react_muhammad-rizky-ferdiansyah
-Tugas pertama membuat repository di github
+
+Project dan Tugas ReactJS selama belajar di Alterra Academy.
