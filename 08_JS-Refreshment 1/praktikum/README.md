@@ -1,4 +1,4 @@
-# TASK Javascript Refreshment 1
+# TASK Javascript Refreshment 1 dan PILGAN
 
 1. Tulis ulang kode di bawah, dan simpan dengan format javascript.
    ![image](../screenshoots/refreshment%20.png)
@@ -37,3 +37,6 @@
 ---
 
 ![image](../screenshoots/terminal%20refreshmant%202.png)
+
+7. PILGAN
+   ![image](../screenshoots/pilgan%20js.refreshment.png
