@@ -39,4 +39,4 @@
 ![image](../screenshoots/terminal%20refreshmant%202.png)
 
 7. PILGAN
-   ![image](../screenshoots/pilgan%20js.refreshment.png
+   ![image](../screenshoots/pilgan%20js.refreshment.png)
