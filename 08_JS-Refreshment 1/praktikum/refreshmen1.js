@@ -14,18 +14,20 @@ if (terdaftar === true) {
 }
 
 a = b;
-// nama = b;
+// nama = b; (ini menyebabkan error)
 
-// console.log("asal diakses =" + asal); (ini menyebabkan eror karena variable asal hanya berlaku di perkenalan)
+// console.log("asal diakses =" + asal); (ini menyebabkan error karena variable asal hanya berlaku di perkenalan)
 console.log("array = " + lengkap_arr[2]);
 console.log("a adalah = " + a);
 console.log("b adalah = " + b);
 perkenalan();
 
 // JAWABAN NO 2
-// 2.a Karena pada variable terdaftar nilainya false sedangkan kondosinya true (jika ingin mengubah nilai terdaftar bisa menggunakan tanda !terdaftar maka hasilnya akan sama dengan lawan dari nilai terdaftar)
-// 2.b Karena fariable const tidak bisa di deklasi ulang(pembuatan ulang fariable) dan tidak bisa mengubah nilai dari variable tersebut.
-// 2.c Bisa, akan tetapi di baris 28 memiliki error tersendiri(kasus yang berbeda)
+// a. Karena pada variable terdaftar nilainya false sedangkan kondosinya true (jika ingin mengubah nilai terdaftar bisa menggunakan tanda !terdaftar maka hasilnya akan sama dengan lawan dari nilai terdaftar).
+
+// b. Karena fariable const tidak bisa di deklasi ulang(pembuatan ulang fariable) dan tidak bisa mengubah nilai dari variable tersebut.
+
+// c. Bisa, akan tetapi di baris 28 memiliki error tersendiri(kasus yang berbeda).
 
 // JAWABAN NO 3
 const foo = ["Budi", "Sita", "ayu"];
@@ -48,7 +50,8 @@ value = value.map((item) => {
 console.log(value);
 
 // JAWABAN NO 6
-// Soal pada nomer 6 bukan untuk pembulatan keatas, melaikan pembulatan terdekat dari bilangan aslinya.
+// Soal pada nomer 6 bukan untuk pembulatan keatas, melainkan pembulatan terdekat dari bilangan aslinya.
+
 let arr = [1.5, 2.56, 5.1, 12.33];
 arr = arr.map((item) => {
   return Math.round(item);
