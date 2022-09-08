@@ -1,0 +1,31 @@
+.estartup-section {
+  /* background-color: lightblue; */
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.estartup-text {
+  font-size: 2rem;
+}
+
+.estartup-text span:nth-child(1) {
+  font-weight: bolder;
+}
+
+.estartup-text span:nth-child(2) {
+  font-weight: 100;
+}
+
+.unordered-list ul {
+  list-style-type: "> ";
+}
+
+.footer {
+  background-color: #2a2c30;
+}
+.footer ul {
+  list-style: none;
+}
+.footer-bottom {
+  background-color: white;
+  color: #2a2c30;
+}
