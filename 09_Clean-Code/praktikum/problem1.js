@@ -1,4 +1,4 @@
-// CODINGAN JS
+// CODINGAN JS PRBOLEM 1
 class user {
     var id;
     var username;
