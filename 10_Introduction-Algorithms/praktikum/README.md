@@ -29,6 +29,7 @@ Sebuah baris berisi sebuah bilangan, yaitu N.
 ### Sebuah baris berisi sebuah bilangan, yaitu N. Format Keluaran Sebuah baris berisi:
 
 • "lampu mati", apabila keadaan akhir lampu adalah mati.
+
 • "lampu menyala", apabila keadaan akhir lampu adalah menyala.
 
 ### Buatlah flowchart untuk algoritma tersebut menggunakan https://whimsical.com!
