@@ -13,5 +13,9 @@ function bilanganPrima(angka) {
   }
 }
 
+/**
+ * Sample Test Cases
+// Input 3, Input 7, Input 10
+ */
 const angka = 3;
 bilanganPrima(angka);
