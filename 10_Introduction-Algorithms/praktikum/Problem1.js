@@ -1,11 +1,17 @@
-let stats = [1.5, 2.56, 5.1, 12.33];
-
-stats = stats.map((stat) => Math.round(stat));
-
-console.log(stats);
-
-let temp = [];
-for (let i = 0; i < stats.length; i++) {
-  temp.push(Math.round(stats[i]));
+function bilanganPrima(angka) {
+  if (angka <= 1) {
+    return console.log("angka harus lebih besar dari 1");
+  }
+  if (angka % 2 === 0 || angka % 3 === 0) {
+    if (angka / 2 === 1 || angka / 3 === 1) {
+      return console.log(`${angka} adalah bilangan prima`);
+    } else {
+      return console.log(`${angka} bukan bilangan prima`);
+    }
+  } else {
+    return console.log(`${angka} adalah bilangan prima`);
+  }
 }
-console.log(temp);
+
+const angka = 3;
+bilanganPrima(angka);
