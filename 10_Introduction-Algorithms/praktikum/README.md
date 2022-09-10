@@ -11,6 +11,14 @@ Dalam matematika, bilangan prima adalah bilangan asli yang lebih besar dari angk
 Input: 3
 Output: Bilangan Prima
 
+## CODINGAN
+
+![image](../screenshoots/3.png)
+
+## NODE
+
+![image](../screenshoots/angka%203.png)
+
 Input: 7
 Output: Bilangan Prima
 
