@@ -9,6 +9,7 @@ Dalam matematika, bilangan prima adalah bilangan asli yang lebih besar dari angk
 ### Sample Test Cases
 
 Input: 3
+
 Output: Bilangan Prima
 
 ## CODINGAN
@@ -20,10 +21,28 @@ Output: Bilangan Prima
 ![image](../screenshoots/angka%203.png)
 
 Input: 7
+
 Output: Bilangan Prima
 
+## CODINGAN
+
+![image](../screenshoots/7.png)
+
+## NODE
+
+![image](../screenshoots/angka%207.png)
+
 Input: 10
+
 Output: Bukan Bilangan Prima
+
+## CODINGAN
+
+![image](../screenshoots/10.png)
+
+## NODE
+
+![image](../screenshoots/angka%2010.png)
 
 ## Problem 2 - Lampu dan Tombol! (max : 50)
 
@@ -43,16 +62,70 @@ Sebuah baris berisi sebuah bilangan, yaitu N.
 ### Buatlah flowchart untuk algoritma tersebut menggunakan https://whimsical.com!
 
 Contoh Masukan
+
 5
+
+## CODINGAN
+
+![image](../screenshoots/lampu%205.png)
+
 Contoh Keluaran
+
 lampu mati
 
+## NODE
+
+![image](../screenshoots/tombol%205.png)
+
 Contoh Masukan
+
 4
+
+## CODINGAN
+
+![image](../screenshoots/lampu%204.png)
+
 Contoh Keluaran
+
 lampu menyala
+
+## NODE
+
+![image](../screenshoots/tombol%204.png)
 
 ### Penjelasan
 
 Pada contoh pertama, tombol yang mempengaruhi keadaan lampu adalah tombol 1 dan tombol 5. Penekanan tombol 1 mengakibatkan lampu menjadi menyala, dan penekanan tombol 5 mengembalikannya ke keadaan mati.
 Pada contoh kedua, tombol yang mempengaruhi keadaan lampu adalah tombol 1, tombol 2, dan tombol 4. Penekanan tombol 1 mengakibatkan lampu menjadi menyala, penekanan tombol 2 mengembalikannya ke keadaan mati, dan penekanan tombol 4 menjadikan lampu kembali menyala.
+
+Contoh Masukan
+
+1
+
+## CODINGAN
+
+![image](../screenshoots/lampu%201.png)
+
+Contoh Keluaran
+
+lampu menyala
+
+## NODE
+
+![image](../screenshoots/tombol%201.png)
+
+Contoh Masukan
+
+2
+
+## CODINGAN
+
+![image](../screenshoots/lampu%202.png)
+
+Contoh Keluaran
+
+lampu mati
+
+## NODE
+
+![image](../screenshoots/tombol%202.png)
