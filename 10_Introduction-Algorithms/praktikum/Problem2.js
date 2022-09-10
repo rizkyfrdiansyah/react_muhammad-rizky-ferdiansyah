@@ -12,4 +12,8 @@ function lampuTombol(n) {
   }
 }
 
-lampuTombol(0);
+/**
+ * Contoh Masukan
+// 5 lampu mati, 4 lampu menyala
+ */
+lampuTombol(4);
