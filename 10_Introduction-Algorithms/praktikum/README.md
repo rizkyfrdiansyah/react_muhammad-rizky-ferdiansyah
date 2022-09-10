@@ -6,6 +6,8 @@ Dalam matematika, bilangan prima adalah bilangan asli yang lebih besar dari angk
 
 ### Buatlah flowchart untuk menentukan bilangan prima menggunakan https://whimsical.com!
 
+![image](../screenshoots/PRIMA.png)
+
 ### Sample Test Cases
 
 Input: 3
@@ -60,6 +62,10 @@ Sebuah baris berisi sebuah bilangan, yaitu N.
 • "lampu menyala", apabila keadaan akhir lampu adalah menyala.
 
 ### Buatlah flowchart untuk algoritma tersebut menggunakan https://whimsical.com!
+
+![image](../screenshoots/LP%201.png)
+![image](../screenshoots/LP%202.png)
+![image](../screenshoots/LP%203.png)
 
 Contoh Masukan
 
