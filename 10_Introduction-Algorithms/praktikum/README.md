@@ -135,3 +135,7 @@ lampu mati
 ## NODE
 
 ![image](../screenshoots/tombol%202.png)
+
+## PILGAN
+
+![image](../screenshoots/pilgan%20introduction%20algorithm.png)
