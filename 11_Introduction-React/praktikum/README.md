@@ -8,3 +8,9 @@ Kalian dapat memanfaatkan halaman => https://magic.reactjs.net/htmltojsx.htm <= 
 2. Buatlah sebuah file baru pada react, yang bernama home.js. Memasukkan halaman home.html ke dalam home.js. Sehingga, ketika kalian membuat react pada home tampilannya akan mirip dengan home.html. (Kalian juga perlu untuk memasukkan css dan assets yang kalian pakai)
 
 ![image](../screenshoots/ss%20react.png)
+
+![image](../screenshoots/app%20react.png)
+
+## PILGAN
+
+![image](../screenshoots/pilgan%20introducing%20React.png)
