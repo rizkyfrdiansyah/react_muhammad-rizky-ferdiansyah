@@ -74,6 +74,15 @@ Tools yang diperlukan
 Untuk pengguna Windows, dapat menggunakan CMD / Powershell.
 CMD ini juga sudah terpasang secara bawaan pada OS (tidak perlu install)
 
+# POINT DARI MENTOR
+
+## React ada 2 jenis component :
+
+1. Class based component
+2. Function based component
+
+<!-- package, modul, dependency itu sama istilah -->
+
 ---
 
 # Getting Started with Create React App
