@@ -1,6 +1,6 @@
 # SECTION 12_REACT-FUNDAMENTAL
 
-Pada materi ini terdapat 7 point yaitu :
+Pada materi ini terdapat 6 point yaitu :
 
 1. JSX
 2. REACT COMPONENTS
@@ -127,6 +127,31 @@ React tidak memiliki pendapat tentang bagaiman cara memasukkan file ke folder
 ## HINDARI TERLALU BANYAK NESTING
 
 ## JANGAN TERLALU MEMIKIRKANNYA
+
+---
+
+## POINT DARI MENTOR :
+
+- number => getter
+- setNumber => setter
+- mutable artinya tipe data yang nilainya dapat diubah. Jenis tipe data notabene merupakan objek seperti :
+
+  - object literal
+  - array
+  - function
+  - date
+
+- immutable artinya tipe data yang nilainya tetap. Jenis tipe data notabene merupakan primitive tipe seperti :
+
+  - string
+  - number
+  - boolean
+  - null
+  - undefined
+  - symbol
+
+- initial state = state awal
+- Encapsulation: Public, Private, Protected
 
 ---
 
