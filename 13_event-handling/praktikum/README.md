@@ -12,3 +12,6 @@ Buatlah daftar pekerjaan yang akan kamu kerjakan, dengan kriteria sebagai beriku
 
 OUTPUT :
 ![image](../screenshoots/todos%20app.png)
+
+PILGAN
+![image](../screenshoots/pilgan%20event%20handling.png)
