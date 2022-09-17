@@ -51,11 +51,11 @@ Bagian kode yang dapat digunakan kembali yang digunakan untuk menentukan tampila
 
 ## COMPONENTS UI
 
-- FilterableProductTable
-- SearchBar
-- ProductTable
-- ProductCategoryRow
-- ProductRow
+- `FilterableProductTable`
+- `SearchBar`
+- `ProductTable`
+- `ProductCategoryRow`
+- `ProductRow`
 
 ---
 
