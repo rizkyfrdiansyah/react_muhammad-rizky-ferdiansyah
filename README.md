@@ -1,3 +1,3 @@
 # react_muhammad-rizky-ferdiansyah
 
-Project dan Tugas ReactJS selama belajar di Alterra Academy.
+Project dan Tugas ReactJS selama Magang dan Studi Independen Bersertifikat (MSIB) di Alterra Academy.
