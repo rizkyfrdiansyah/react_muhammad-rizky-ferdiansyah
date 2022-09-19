@@ -75,7 +75,7 @@ Hooks merupakan fitur baru di React 16.8. Dengan Hooks, kita dapat menggunakan s
 
 ## Custom Hooks
 
-Membuat Hook Kita sendiri memungkinkan Kita mengekstrak komponen logika ke fungsi yang dapat digunakan lagi.
+## Membuat Hook Kita sendiri memungkinkan Kita mengekstrak komponen logika ke fungsi yang dapat digunakan lagi.
 
 # Getting Started with Create React App
 
