@@ -18,6 +18,9 @@
 }
 .todo-title-done {
   text-decoration: line-through;
+  padding: 8px;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 2rem;
+  width: fit-content;
 }
-
-/*# sourceMappingURL=App.css.map */

@@ -5,7 +5,7 @@ function App() {
   const todos = [
     {
       id: 1,
-      title: "Membuat Komponent",
+      title: "Membuat Komponen",
       completed: true,
     },
     {
