@@ -64,8 +64,7 @@ Attribute `component` merupakan suatu komponen yang akan `ditampilkan` kepada us
 
 ## SWITCH
 
-Untuk membungkus kumpulan beberapa component `ROUTE`
-`EXACT` bertugas untuk `memastikan` route hanya me-render component yang memiliki `path` yang `cocok`/ Jika tidak ada yang cocok, maka route yang akan di-render yaitu route terakhir dengan component `Notfound`
+Untuk membungkus kumpulan beberapa component `ROUTE EXACT` bertugas untuk `memastikan` route hanya me-render component yang memiliki `path` yang `cocok`/ Jika tidak ada yang cocok, maka route yang akan di-render yaitu route terakhir dengan component `Notfound`
 
 ## LINK
 
@@ -117,7 +116,7 @@ Mengembalikan objek pasangan `kunci/nilai parameter` URL. Gunakan untuk mengakse
 
 ## useRouteMatch
 
-## `Mencocokan URL` dengan cara sama seperti <Route>. Berguna untuk mendapatkan akes ke data kecocokan tanpa benar-benar merender <Route>.
+`Mencocokan URL` dengan cara sama seperti <Route>. Berguna untuk mendapatkan akes ke data kecocokan tanpa benar-benar merender <Route>.
 
 # Getting Started with Create React App
 
