@@ -1,26 +1,15 @@
-import React, { useState } from "react";
-import TodoItem from "./TodoItem";
+import React, { useState, useEffect } from "react";
 
-const AddTodo = () => {
+const Todo = () => {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: "Membuat Komponen",
+      title: "Belajar react hooks",
       completed: true,
     },
     {
       id: 2,
-      title: "Unit Testing",
-      completed: false,
-    },
-    {
-      id: 3,
-      title: "Setup Development Environment",
-      completed: true,
-    },
-    {
-      id: 4,
-      title: "Deploy ke server",
+      title: "Latihan react hooks",
       completed: false,
     },
   ]);
@@ -29,53 +18,87 @@ const AddTodo = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    if (title === "") {
-      alert("Input todo title");
-    } else {
-      let todosResult = todos;
-      let id = todos[todos.length - 1].id + 1;
-      let completed = false;
+    let todosTemp = [...todos];
+    // immutable dan mutable
+    const lastIndex = todosTemp.length - 1;
 
-      let result = {
-        id,
-        title,
-        completed,
-      };
-      todosResult.push(result);
-      console.log(todosResult);
-      setTodos(todosResult);
-    }
+    let id = todosTemp[lastIndex].id + 1;
+    let completed = false;
+
+    let result = {
+      id,
+      title,
+      completed,
+    };
+    todosTemp.push(result);
+
+    setTodos(todosTemp);
+    console.log(todosTemp);
+  };
+
+  const deleteHandler = (id) => {
+    let todosTemp = [...todos];
+
+    todosTemp = todosTemp.filter((todo) => todo.id !== id);
+    setTodos(todosTemp);
+    console.log(`Delete id ${id}`);
+  };
+
+  useEffect(() => {
+    console.log("use effect jalan");
+  }, []);
+
+  const setLocalStorage = () => {
+    localStorage.setItem("ashiapp", "mantaph");
+  };
+  const clearLocalStorage = () => {
+    localStorage.clear();
   };
 
   return (
     <>
-      <div className="todo-add">
-        <div className="todo-add-input">
+      <div className="container-item">
+        <div className="todo-input">
           <form>
-            <input
-              onChange={(e) => setTitle(e.target.value)}
-              type="text"
-              placeholder="Add Todo.."
-            />
+            <input onChange={(event) => setTitle(event.target.value)} type="text" placeholder="Input your todo list, thanks." />
+            <button onClick={submitHandler}>Submit Todo</button>
+            {/* <p>{title}</p> */}
           </form>
         </div>
-        <div className="todo-add-button">
-          <button onClick={submitHandler} className="todo-btn">
-            Submit
-          </button>
+        <div className="table-section">
+          <table border="1" cellSpacing="0">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {todos.map((todo) => {
+                const { id, title, completed } = todo;
+                return (
+                  <tr key={id}>
+                    <td>{id}</td>
+                    <td>{title}</td>
+                    <td>{completed ? "done" : "in progress"}</td>
+                    <td>
+                      <button onClick={() => deleteHandler(id)}>Delete</button>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
-      </div>
-      <div className="container-item main-section">
-        {todos.length !== 0 ? (
-          todos.map((todo) => {
-            return <TodoItem todo={todo} />;
-          })
-        ) : (
-          <p>Now Loading...</p>
-        )}
+        <div>
+          <button onClick={setLocalStorage}>set local storage</button>
+          <button onClick={clearLocalStorage}>clear local storage</button>
+        </div>
       </div>
     </>
   );
 };
 
-export default AddTodo;
+export default Todo;
