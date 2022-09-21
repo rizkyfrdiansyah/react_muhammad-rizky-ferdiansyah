@@ -9,7 +9,7 @@ Pada materi ini terdapat beberapa point penting, yaitu :
 
 ## Custom Hook
 
-## Membuat hook sendiri memungkinkan mengekstrak komponen logika ke fungsi yang dapat digunakan lagi.
+Membuat hook sendiri memungkinkan mengekstrak komponen logika ke fungsi yang dapat digunakan lagi.
 
 ## APA ITU ROUTER ?
 
