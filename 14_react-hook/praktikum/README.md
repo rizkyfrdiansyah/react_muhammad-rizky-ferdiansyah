@@ -7,3 +7,7 @@ Ubah Class Component pada assignment sebelumnya menjadi Function Component. Seka
 ## Data :
 
 Teman-teman bebas dalam membuat bentuk data pada assignment ini. Dibawah ini ada contoh data yang bisa teman-teman pakai :
+
+## TAMPILAN
+
+![image](../screenshoots/todos.png)
