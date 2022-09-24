@@ -15,12 +15,12 @@ const initialValue = [
   },
   {
     id: 3,
-    title: "Mengerjakan Summary",
+    title: "Membuat Resume",
     completed: false,
   },
   {
     id: 4,
-    title: "Membaca Materi",
+    title: "Mengerjakan Pilgan",
     completed: false,
   },
 ];
@@ -50,7 +50,7 @@ function Home() {
 
   return (
     <div className="home">
-      <h1 className="title">todos</h1>
+      <h1 className="title">ToDoS</h1>
       <ToDoInput tambahToDo={tambahToDo} />
       <ToDoList data={data} hapusToDo={hapusToDo} handleChange={handleCheckboxChange} />
     </div>

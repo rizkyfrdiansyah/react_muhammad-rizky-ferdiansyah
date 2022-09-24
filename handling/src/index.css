@@ -17,9 +17,7 @@ body {
 }
 .home .title {
   letter-spacing: 2px;
-  background: linear-gradient(#fbd249, #91c07b, #3498eb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #9adcff;
   font-size: 4rem;
 }
 /* container-todo */
@@ -85,6 +83,9 @@ body {
 .todo-list p {
   flex-grow: 1;
   text-align: start;
+}
+.todo-list p:hover {
+  color: #9adcff;
 }
 .todo-list button {
   font-weight: bold;

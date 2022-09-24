@@ -27,7 +27,7 @@ function ToDoInput(props) {
         completed: "false",
       });
     } else {
-      alert("Data masih kosong");
+      alert("Jangan dikosongin, isi dulu yaa");
     }
   };
 
