@@ -10,4 +10,12 @@ Teman-teman bebas dalam membuat bentuk data pada assignment ini. Dibawah ini ada
 
 ## TAMPILAN
 
-![image](../screenshoots/todos.png)
+![image](../screenshoots/hook.png)
+
+## TAMPILAN ALERT
+
+![image](../screenshoots/alert%20hook.png)
+
+## PILGAN
+
+![image](../screenshoots/pilgan%20react%20hooks.png)
