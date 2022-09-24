@@ -10,8 +10,14 @@ Buatlah daftar pekerjaan yang akan kamu kerjakan, dengan kriteria sebagai beriku
 
 ## (\*) Kerapihan dan inovasi menjadi suatu nilai tambah.
 
-OUTPUT :
-![image](../screenshoots/todos.png)
+## TAMPILAN :
 
-PILGAN
+![image](../screenshoots/todos%20app.png)
+
+## TAMPILAN :
+
+![image](../screenshoots/alert%20todos.png)
+
+## PILGAN
+
 ![image](../screenshoots/pilgan%20event%20handling.png)

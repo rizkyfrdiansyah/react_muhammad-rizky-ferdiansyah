@@ -61,7 +61,7 @@ body {
   width: 80px;
 }
 .container-todo button:hover {
-  color: #9adcff;
+  color: #ffa29a;
 }
 
 /* Todo List */
@@ -94,5 +94,5 @@ body {
   background-color: transparent;
 }
 .btn-delete-list:hover {
-  color: #9adcff;
+  color: #ffa29a;
 }
