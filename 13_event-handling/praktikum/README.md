@@ -14,7 +14,7 @@ Buatlah daftar pekerjaan yang akan kamu kerjakan, dengan kriteria sebagai beriku
 
 ![image](../screenshoots/todos%20app.png)
 
-## TAMPILAN :
+## TAMPILAN ALERT :
 
 ![image](../screenshoots/alert%20todos.png)
 
