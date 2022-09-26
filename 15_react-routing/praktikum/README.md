@@ -18,19 +18,11 @@ Lanjutkan daftar pekerjaan yang telah kamu kerjakan saat assignment React Hooks 
 
 # TAMPILAN ABOUT
 
-![image](../screenshoots/Tampilan%20About.png)
-
 # TAMPILAN ABOUT-APP
-
-![image](../screenshoots/Tampilan%20About-App.png)
 
 # TAMPILAN ABOUT-AUTHOR
 
-![image](../screenshoots/Tampilan%20About-Author.png)
-
 # TAMPILAN NOTFOUND
-
-![image](../screenshoots/Tampilan%20Notfound.png)
 
 # PILGAN
 
