@@ -1,4 +1,4 @@
-# ASSIGNMENT REACT HOOKS
+# ASSIGNMENT REACT HOOKS DAN PILGAN
 
 Ubah Class Component pada assignment sebelumnya menjadi Function Component. Sekaligus ubah lifecycle method & state management menggunakan React Hooks.
 
