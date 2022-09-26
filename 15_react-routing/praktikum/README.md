@@ -18,6 +18,8 @@ Lanjutkan daftar pekerjaan yang telah kamu kerjakan saat assignment React Hooks 
 
 # TAMPILAN ABOUT
 
+![image](../screenshoots/Tampilan%20About.png)
+
 # TAMPILAN ABOUT-APP
 
 # TAMPILAN ABOUT-AUTHOR
