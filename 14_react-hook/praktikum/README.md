@@ -10,7 +10,7 @@ Teman-teman bebas dalam membuat bentuk data pada assignment ini. Dibawah ini ada
 
 ## TAMPILAN AWAL
 
-![image](../screenshoots/Tampilan%20awal%20todos.png)
+![image](../screenshoots/awal%20hook.png)
 
 ## PILGAN
 
