@@ -14,23 +14,23 @@ Lanjutkan daftar pekerjaan yang telah kamu kerjakan saat assignment React Hooks 
 
 # TAMPILAN AWAL
 
-![image](../screenshoots/Tampilan%20awal%20.png)
+![image](../screenshoots/Tampilan%20awal%20routing.png)
 
 # TAMPILAN ABOUT
 
-![image](../screenshoots/Tampilan%20about.png)
+![image](../screenshoots/Tampilan%20About.png)
 
 # TAMPILAN ABOUT-APP
 
-![image](../screenshoots/Tampilan%20about-app.png)
+![image](../screenshoots/Tampilan%20About-App.png)
 
 # TAMPILAN ABOUT-AUTHOR
 
-![image](../screenshoots/Tampilan%20about-author.png)
+![image](../screenshoots/Tampilan%20About-Author.png)
 
 # TAMPILAN NOTFOUND
 
-![image](../screenshoots/Tampilan%20notfound.png)
+![image](../screenshoots/Tampilan%20Notfound.png)
 
 # PILGAN
 
