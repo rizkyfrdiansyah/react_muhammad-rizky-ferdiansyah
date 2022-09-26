@@ -1,11 +1,8 @@
 import { useRef, useState } from "react";
 
-/**
- * Represent a functional component Form
- */
 const Form = () => {
   /**
-   * Declared initial value for state data
+   * Deklarasi nilai awal untuk data status
    * @constant
    * @type {object}
    */
@@ -22,7 +19,7 @@ const Form = () => {
   };
 
   /**
-   * Declared initial value for state errMsg
+   * Deklarasi nilai awal untuk data status error
    * @constant
    * @type {object}
    */
