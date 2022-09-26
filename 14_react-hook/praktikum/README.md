@@ -8,13 +8,9 @@ Ubah Class Component pada assignment sebelumnya menjadi Function Component. Seka
 
 Teman-teman bebas dalam membuat bentuk data pada assignment ini. Dibawah ini ada contoh data yang bisa teman-teman pakai :
 
-## TAMPILAN
+## TAMPILAN AWAL
 
-![image](../screenshoots/hook.png)
-
-## TAMPILAN ALERT
-
-![image](../screenshoots/alert%20hook.png)
+![image](../screenshoots/Tampilan%20awal%20todos.png)
 
 ## PILGAN
 
