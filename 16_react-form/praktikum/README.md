@@ -19,10 +19,14 @@ Buatlah formulir yang berjudul "Pendaftaran Peserta Coding Bootcamp". Form penda
 
 Apabila ada error, bisa ditampilkan antara form dan tombol submit. Ketika tombol submit ditekan, akan muncul alert baik ketika ada error maupun saat data benar. Utamakan fungsionalitas. Kerapihan dan inovasi menjadi suatu nilai tambah.
 
-### Contoh Data
+### TAMPILAN FORM AWAL
 
-Berikut merupakan contoh data yang bisa teman gunakan. Tapi ini sekedar contoh saja, untuk dijadikan referensi. Kalian bisa mengubahnya, menyesuaikan kebutuhan dan selera masing-masing
+![image](../screenshoots/Form%20Awal.png)
 
-### TAMPILAN
+### Pesan Error dan Alert Data Tidak Sesuai
 
-### Contoh Pesar Error
+![image](../screenshoots/Pesan%20error%20dan%20Alert%20data%20tidak%20sesuai.png)
+
+### Pesan Data Sesuai
+
+![image](../screenshoots/Pesan%20data%20sesuai%20.png)
