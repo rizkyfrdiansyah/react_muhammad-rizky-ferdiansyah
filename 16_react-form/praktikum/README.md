@@ -30,3 +30,7 @@ Apabila ada error, bisa ditampilkan antara form dan tombol submit. Ketika tombol
 ### Pesan Data Sesuai
 
 ![image](../screenshoots/Pesan%20data%20sesuai%20.png)
+
+### PILGAN
+
+![image](../screenshoots/pilgan%20react%20form.png)
