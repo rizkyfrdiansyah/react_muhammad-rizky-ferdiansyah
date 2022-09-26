@@ -11,3 +11,27 @@ Lanjutkan daftar pekerjaan yang telah kamu kerjakan saat assignment React Hooks 
 (\*) Kerapihan dan inovasi menjadi suatu nilai tambah
 
 ## `Berikut merupakan contohnya`
+
+# TAMPILAN AWAL
+
+![image](../screenshoots/Tampilan%20awal%20.png)
+
+# TAMPILAN ABOUT
+
+![image](../screenshoots/Tampilan%20about.png)
+
+# TAMPILAN ABOUT-APP
+
+![image](../screenshoots/Tampilan%20about-app.png)
+
+# TAMPILAN ABOUT-AUTHOR
+
+![image](../screenshoots/Tampilan%20about-author.png)
+
+# TAMPILAN NOTFOUND
+
+![image](../screenshoots/Tampilan%20notfound.png)
+
+# PILGAN
+
+![image](../screenshoots/pilgan%20react%20routing.png)
