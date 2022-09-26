@@ -17,7 +17,6 @@ const ToDoList = ({ data, hapusToDo, handleChange }) => {
             onClick={() => {
               hapusToDo(todo.id);
             }}
-            className="btn-delete-list"
           >
             Delete
           </button>
