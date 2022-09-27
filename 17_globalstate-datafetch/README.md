@@ -197,6 +197,8 @@ Permintaan API RESTful dapat termasuk parameter yang memberi server lebih banyak
 - Parameter kueri yang meminta informasi selengkapnya tentang sumber daya.
 - Parameter cookie yang mengautentikasi klien dengan cepat.
 
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
