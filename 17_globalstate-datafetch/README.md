@@ -70,6 +70,8 @@ Untuk menghandle side effect logic seperti logic synchronous kompleks yang perlu
 
 ## `npm install redux-thunk`
 
+---
+
 3. Hasura
 
 ## APA ITU HASURA?
