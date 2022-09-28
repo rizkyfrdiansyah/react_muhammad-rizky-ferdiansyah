@@ -17,7 +17,9 @@ body {
 }
 .home .title {
   letter-spacing: 2px;
-  color: #9adcff;
+  background: linear-gradient(#f07a1f, #266ee3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 4rem;
 }
 /* container-todo */
