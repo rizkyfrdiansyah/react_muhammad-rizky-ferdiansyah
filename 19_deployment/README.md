@@ -16,7 +16,9 @@ Membuat versi produksi untuk aplikasi di dalam folder `build/`. Ini diperlukan s
 
 ## Run Optimized App
 
-## Untuk menjalankan aplikasi yang optimal di lokal komputer kita, kita bisa menggunakan serve.
+Untuk menjalankan aplikasi yang optimal di lokal komputer kita, kita bisa menggunakan serve.
+
+---
 
 2. DEPLOYMENT
 
