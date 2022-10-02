@@ -12,10 +12,6 @@ Pada section ini mempelajari materi GraphQL - Basic. Terdapat 3 point dalam mate
 
 3. Perbedaan Hasura dan Heroko
 
-   - Hasura
+- Hasura : Layanan yang menyediakan graphql dan rest api. Dikelola penuh di cloud hasura atau dihosting sendiri.
 
-   * Layanan yang menyediakan graphql dan rest api. Dikelola penuh di cloud hasura atau dihosting sendiri.
-
-   - Heroku
-
-   * Platform cloud sebagai layanan yang mendukung beberapa bahasa pemrograman. Heroku menyediakan database postgres gratis.
+- Heroku : Platform cloud sebagai layanan yang mendukung beberapa bahasa pemrograman. Heroku menyediakan database postgres gratis.
