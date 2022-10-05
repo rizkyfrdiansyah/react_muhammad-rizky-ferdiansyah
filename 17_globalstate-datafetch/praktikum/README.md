@@ -1,10 +1,8 @@
 # ASSIGNMENT GLOBAL STATE MANAGEMENT - DATA FETCHING DAN PILGAN
 
 1. Soal untuk nilai Global State Management (REDUX) (skala 0-100)
-
-![image](../screenshoots/redux%20&%20redux-persist.png)
-
-Tambahkan redux dan redux-persist pada assignment sebelumnya.
+   Tambahkan redux dan redux-persist pada assignment sebelumnya.
+   ![image](../screenshoots/redux%20&%20redux-persist.png)
 
 2. Soal untuk nilai data fetching (0-100)
 
