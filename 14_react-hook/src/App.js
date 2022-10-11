@@ -1,11 +1,12 @@
-import Home from "./components/Home";
+/** Components */
+import Home from "./Pages/Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <>
       <Home />
-    </div>
+    </>
   );
-}
+};
 
 export default App;

@@ -10,7 +10,20 @@ Teman-teman bebas dalam membuat bentuk data pada assignment ini. Dibawah ini ada
 
 ## TAMPILAN AWAL
 
-![image](../screenshoots/awal%20hook.png)
+![image](../screenshoots/tampilan%20awal%20hooks.png)
+
+## CODE :
+
+1. InputTodo
+   ![image](../screenshoots/InputTodo%20code.png)
+
+2. TodoList
+   ![image](../screenshoots/TodoList%20code.png)
+
+![image](../screenshoots/TodoList%202%20code.png)
+
+3. Home
+   ![image](../screenshoots/Home%20code.png)
 
 ## PILGAN
 
