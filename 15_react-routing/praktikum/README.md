@@ -14,11 +14,7 @@ Lanjutkan daftar pekerjaan yang telah kamu kerjakan saat assignment React Hooks 
 
 # TAMPILAN AWAL
 
-![image](../screenshoots/routing%20awal.png)
-
-# TAMPILAN ABOUT
-
-![image](../screenshoots/about.png)
+![image](../screenshoots/tampilan%20page%20home.png)
 
 # TAMPILAN ABOUT-APP
 
