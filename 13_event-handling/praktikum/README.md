@@ -12,11 +12,11 @@ Buatlah daftar pekerjaan yang akan kamu kerjakan, dengan kriteria sebagai beriku
 
 ## TAMPILAN AWAL
 
-![image](../screenshoots/tampilan%20awal%20handling.png)
+![image](../screenshoots/tampilan%20awal%20todos.png)
 
 ## TAMPILAN ALERT
 
-![image](../screenshoots/tampilan%20alert%20handling.png)
+![image](../screenshoots/alert%20todos.png)
 
 ## PILGAN
 
