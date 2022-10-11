@@ -18,6 +18,10 @@ Buatlah daftar pekerjaan yang akan kamu kerjakan, dengan kriteria sebagai beriku
 
 ![image](../screenshoots/alert%20todos.png)
 
+## CODE dataTodos
+
+![image](../screenshoots/dataTodos.png)
+
 ## PILGAN
 
 ![image](../screenshoots/pilgan%20event%20handling.png)
