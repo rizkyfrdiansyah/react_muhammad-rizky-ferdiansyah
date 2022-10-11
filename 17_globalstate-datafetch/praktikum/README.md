@@ -6,6 +6,8 @@ Tambahkan redux dan redux-persist pada assignment sebelumnya.
 
 ![image](../screenshoots/redux%20&%20redux-persist.png)
 
+![image](../screenshoots/tampilan%20todoapp.png)
+
 2. Soal untuk nilai data fetching (0-100)
 
 Gunakan lah hasura untuk membuat database dan juga Restfull API sehingga memiliki struktur data seperti di bawah:
