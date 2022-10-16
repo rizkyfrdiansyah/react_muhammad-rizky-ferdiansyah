@@ -1,10 +1,29 @@
 import { useDispatch, useSelector } from "react-redux";
+import axios from "axios";
 
 /** Slices */
 import { deleteTodo, checkedTodo } from "../../store/TodosSlice";
 
 /** Styles */
 import styles from "./style.module.css";
+
+// axios
+axios.get("https://flying-collie-55.hasura.app/api/rest/todos").then(
+  (response) => {
+    console.log(response.data);
+  },
+  (error) => {
+    console.log(error);
+  }
+);
+
+// fetch()
+fetch("https://flying-collie-55.hasura.app/api/rest/todos")
+  .then((response) => response.json()) // one extra step
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => console.error(error));
 
 const TodoList = () => {
   const todos = useSelector((state) => state.todo.todos);
