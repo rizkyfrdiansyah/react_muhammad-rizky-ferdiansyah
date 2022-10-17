@@ -6,29 +6,20 @@ import { deleteTodo, checkedTodo } from "../../store/TodosSlice";
 
 /** Styles */
 import styles from "./style.module.css";
-
-// axios
-axios.get("https://flying-collie-55.hasura.app/api/rest/todos").then(
-  (response) => {
-    console.log(response.data);
-  },
-  (error) => {
-    console.log(error);
-  }
-);
-
-// fetch()
-fetch("https://flying-collie-55.hasura.app/api/rest/todos")
-  .then((response) => response.json()) // one extra step
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((error) => console.error(error));
+import { useEffect } from "react";
+import { getTodos } from "./../../store/TodosSlice/index";
 
 const TodoList = () => {
-  const todos = useSelector((state) => state.todo.todos);
+  const todos = useSelector((state) => state.todo);
 
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getTodos());
+    // todos.map((todo) => {
+    //   console.log(todo);
+    // });
+  }, [dispatch]);
 
   return (
     <div className={styles.container_list}>

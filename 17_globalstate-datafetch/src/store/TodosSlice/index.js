@@ -1,22 +1,25 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import axios from "axios";
 
 /** Generate Random ID */
 import { v4 as uuidv4 } from "uuid";
 
-const initialState = {
-  todos: [
-    {
-      id: uuidv4(),
-      title: "Mengerjakan Exercise",
-      completed: true,
-    },
-    {
-      id: uuidv4(),
-      title: "Mengerjakan Assignment",
-      completed: false,
-    },
-  ],
-};
+let initialState = [
+  {
+    id: 0,
+    title: "",
+    completed: false,
+  },
+];
+
+export const getTodos = createAsyncThunk("todos/getTodos", async () => {
+  const response = await axios.get("https://flying-collie-55.hasura.app/api/rest/todos");
+
+  if (response.status === 200) {
+    const todos = await response.data;
+    return { todos };
+  }
+});
 
 export const todosSlice = createSlice({
   name: "todos",
@@ -24,31 +27,25 @@ export const todosSlice = createSlice({
   reducers: {
     addTodo: (state, action) => {
       const { payload } = action;
-
       payload.e.preventDefault();
-
       payload.input === ""
         ? alert("Jangan dikosongin, isi dulu yaa")
-        : (state.todos = [
-            ...state.todos,
-            {
-              id: uuidv4(),
-              title: action.payload.input,
-              completed: false,
-            },
-          ]);
+        : state.push({
+            id: uuidv4(),
+            title: action.payload.input,
+            completed: false,
+          });
     },
     deleteTodo: (state, action) => {
       const { payload } = action;
-
-      const newListTodo = state.todos.filter((todo) => todo.id !== payload);
-
-      state.todos = newListTodo;
+      const newListTodo = state.filter((todo) => todo.id !== payload);
+      state = newListTodo;
+      return state.filter((todo) => todo.id !== action.payload.id);
     },
     checkedTodo: (state, action) => {
       const { payload } = action;
-
-      const newListTodo = state.todos.map((todo) => {
+      const newListTodo = state.map((todo) => {
+        console.log(state);
         if (todo.id === payload.id) {
           return {
             id: todo.id,
@@ -63,8 +60,17 @@ export const todosSlice = createSlice({
           };
         }
       });
-
-      state.todos = newListTodo;
+      state = newListTodo;
+      const index = state.findIndex((todo) => todo.id === action.payload.id);
+      return (state[index].completed = action.payload.completed);
+    },
+  },
+  extraReducers: {
+    [getTodos.fulfilled]: (state, action) => {
+      return action.payload.todos.todos;
+    },
+    [getTodos.pending]: (state, action) => {
+      console.log("Loading...");
     },
   },
 });
