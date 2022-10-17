@@ -22,7 +22,7 @@ Gunakan lah hasura untuk membuat database dan juga Restfull API sehingga memilik
 
 ![image](../screenshoots/Axios%20API.png)
 
-![image](../screenshoots/Axios%20API%202.png.png)
+![image](../screenshoots/Axios%20API%202.png)
 
 ## OUTPUT TAMPILAN
 
