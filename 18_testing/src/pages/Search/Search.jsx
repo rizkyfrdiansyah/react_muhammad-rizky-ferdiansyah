@@ -14,7 +14,7 @@ export default function Search() {
     try {
       result = await axios.get(`${URL}?query=${value}`);
       setStories(result.data.hits);
-      // console.log(value, "value", result.data.hits[0]);
+      console.log(value, "value", result.data.hits[0]);
     } catch (error) {
       setError(error);
     }
@@ -33,7 +33,7 @@ export default function Search() {
       <ul>
         {stories.map((story) => (
           <li key={story.objectID}>
-            {story.title} <button href={story.url}>Baca Selengkapnya</button>
+            {story.title} <a href={story.url}>Baca Selengkapnya</a>
           </li>
         ))}
       </ul>

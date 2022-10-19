@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import styles from "./FormCodingBootcamp.module.css";
+import styles from "../../assets/css/FormCoding.module.css";
 
-export default function NameForm() {
+function FormCoding() {
   const baseData = {
     nama: "",
     email: "",
@@ -20,7 +20,6 @@ export default function NameForm() {
   const [errorMassage, setErrorMassage] = useState(baseError);
   const regexNama = /^[A-Za-z ]*$/;
   const regexEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -67,7 +66,7 @@ export default function NameForm() {
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Pendaftaran Peserta Coding Bootcamp</h1>
-      <form onSubmit={handleSubmit} className={styles.centerForm} data-testid="form">
+      <form onSubmit={handleSubmit} className={styles.centerForm}>
         <label>
           Nama Lengkap:
           <input required className={styles.input} type="text" name="nama" value={data.nama} onChange={handleChange} />
@@ -97,9 +96,6 @@ export default function NameForm() {
             <option value="golang">Coding Backend with Golang</option>
             <option value="reactjs">Coding Frontend with ReactJS</option>
             <option value="fullstack">Fullstack Developer</option>
-            <option value="designer">Professional UI/UX Designer</option>
-            <option value="flutter">Mastering Flutter</option>
-            <option value="quality">Quality Engineer</option>
           </select>
         </label>
         <label>
@@ -125,7 +121,9 @@ export default function NameForm() {
         </ul>
         <br />
         <br />
-        <input type="submit" value="Submit" data-testid="submit-button" />
+        <button type="submit" className={styles.buttonSubmit}>
+          Submit
+        </button>
         <button className={styles.buttonReset} onClick={resetForm}>
           Reset
         </button>
@@ -133,3 +131,4 @@ export default function NameForm() {
     </>
   );
 }
+export default FormCoding;
