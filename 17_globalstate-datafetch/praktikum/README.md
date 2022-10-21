@@ -12,7 +12,7 @@ Gunakan lah hasura untuk membuat database dan juga Restfull API sehingga memilik
 
 ## HASURA
 
-![image](../screenshoots/hasura.png)
+![image](../screenshoots/hasura%20database.png)
 
 ## POSTMAN
 
@@ -20,9 +20,9 @@ Gunakan lah hasura untuk membuat database dan juga Restfull API sehingga memilik
 
 ## AXIOS RESTFULL API
 
-![image](../screenshoots/Axios%20API.png)
+![image](../screenshoots/axios%20get.png)
 
-![image](../screenshoots/Axios%20API%202.png)
+![image](../screenshoots/axios%20get%202.png)
 
 ## OUTPUT TAMPILAN
 
