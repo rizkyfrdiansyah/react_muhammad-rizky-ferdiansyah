@@ -67,10 +67,11 @@ export const todosSlice = createSlice({
   },
   extraReducers: {
     [getTodos.fulfilled]: (state, action) => {
+      console.log(action.payload.todos.todos);
       return action.payload.todos.todos;
     },
     [getTodos.pending]: (state, action) => {
-      console.log("Loading...");
+      // console.log("Loading...");
     },
   },
 });

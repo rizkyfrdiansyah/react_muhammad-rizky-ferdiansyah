@@ -28,5 +28,9 @@ Gunakan lah hasura untuk membuat database dan juga Restfull API sehingga memilik
 
 ![image](../screenshoots/ouput%20todos.png)
 
+## TAMPILAN CONSOLE
+
+![image](../screenshoots/tampilan%20console.png)
+
 3. PILGAN
    ![image](../screenshoots/pilgan%20global%20state%20management%20and%20data%20fetching.png)
