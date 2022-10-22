@@ -21,3 +21,7 @@ Masih pada database kampus_merdeka. Lakukanlah hal-hal berikut :
 ## QUERY
 
 ![image](<../screenshoots/soal%202%20(query).png>)
+
+## PILGAN
+
+![image](../screenshoots/pilgan%20relational%20database.png)
