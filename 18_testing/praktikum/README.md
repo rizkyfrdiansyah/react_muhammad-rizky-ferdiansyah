@@ -5,3 +5,7 @@ Buatlah file testing untuk code berikut. Semakin banyak dan berkualitas skenario
 ## TAMPILAN OUTPUT :
 
 ![image](../screenshoots/output%20testing.png)
+
+## RUN ALL TESTING
+
+![image](../screenshoots/run%20all%20test%20suites.png)
