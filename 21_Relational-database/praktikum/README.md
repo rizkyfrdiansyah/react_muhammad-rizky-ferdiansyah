@@ -2,6 +2,13 @@
 
 Masih pada database kampus_merdeka. Lakukanlah hal-hal berikut :
 
-1. Lakukan relasi database one to one, yang mana akan menghubungkan id_anggota pada tabel keternagan dengan nama pada tabel anggota.
+1. Lakukan relasi database one to one, yang mana akan menghubungkan id_anggota pada tabel keterangan dengan nama pada tabel anggota.
+   ![image](<../screenshoots/soal%201%20(relationship).png>)
+
+![image](<../screenshoots/soal%201%20(query).png>)
 
 2. Lakukan relasi database one to many, yang mana akan menghubungkan id pada tabel anggota dengan pelajaran pada tabel keterangan.
+
+![image](<../screenshoots/soal%202%20(relationship).png>)
+
+![image](<../screenshoots/soal%202%20(query).png>)
