@@ -39,3 +39,5 @@ Lakukan screenshots(SS) setiap query dan tampilan query tersebut. Kumpulkan foto
 [query](query.json)
 
 ## PILGAN
+
+![image](../screenshoots/pilgan%20GraphQL%20-%20Basic.png)
