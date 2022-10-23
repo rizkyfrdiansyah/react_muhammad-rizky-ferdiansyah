@@ -12,7 +12,7 @@ Masih pada database kampus_merdeka. Lakukanlah hal-hal berikut :
 
 ![image](<../screenshoots/soal%201%20(query).png>)
 
-1. Lakukan relasi database one to many, yang mana akan menghubungkan id pada tabel anggota dengan pelajaran pada tabel keterangan.
+2. Lakukan relasi database one to many, yang mana akan menghubungkan id pada tabel anggota dengan pelajaran pada tabel keterangan.
 
 ## RELATIONSHIP
 
