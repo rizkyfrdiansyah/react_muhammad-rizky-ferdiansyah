@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# SECTION 22_GraphQL Query and Apollo Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pada materi kali ini mempelajari mengenai query pada apollo client dan terdapat 3 point penting dalam materi ini yaitu :
 
-## Available Scripts
+1. GraphQL Overview
+2. Hasura & Heroku
+3. Apollo
 
-In the project directory, you can run:
+## GraphQL Overview
 
-### `npm start`
+- GraphQL adalah bahasa query untuk API, dan runtime server-side untuk mengeksekusi queries dengan menggunakan sistem tipe yang ditentukan untuk beberapa data. GraphQL meminimalkan jumlah data yang perlu ditransfer melalui jaringan. Dengan GraphQL kita dapat menggunakan satu endpoint tunggal untuk setiap permintaan yang diperlukan.
+- Query adalah fungsi untuk mendapatkan data berdasarkan query tertentu yang didefinisikan.
+- Mutation adalah fungsi untuk melakukan insert, update, dan delete data.
+- Subcription adalah fungsi untuk mengambil data yang terupdate secara realtime berdasarkan event tertentu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Hasura & Heroku
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Hasura adalah layanan yang menyediakan GraphQL dan REST API. Dikelola penuh di hasura cloud atau self-hosted.
+- Heroku adalah platform cloud sebagai yang mendukung bahasa pemrograman server. Heroku juga menyediakan database postgres dengan gratis.
 
-### `npm test`
+## Apollo Client
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Apollo Client adalah sebuah library javascript untuk mempermudah menggunakan GraphQL di sisi Frontend. Ketika menggunakan Apollo Client akan lebih mudah dan cepat karena di dalamnya tersedia fitur yang sering dibutuhkan oleh Frontend.
