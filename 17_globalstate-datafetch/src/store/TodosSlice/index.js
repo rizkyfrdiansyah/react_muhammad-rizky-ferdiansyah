@@ -71,7 +71,7 @@ export const todosSlice = createSlice({
       return action.payload.todos.todos;
     },
     [getTodos.pending]: (state, action) => {
-      // console.log("Loading...");
+      console.log("Loading...");
     },
   },
 });
