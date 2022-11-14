@@ -24,4 +24,4 @@ Pembuatans sebuah halaman menggunakan HTML, CSS/Framework CSS, daan JS. Halaman 
 
 ## MOBILE VERSION
 
-![image](/28_Weekly-task/Weekly-task1/screenshot/mobile.png
+![image](/28_Weekly-task/Weekly-task1/screenshot/mobile.png)
