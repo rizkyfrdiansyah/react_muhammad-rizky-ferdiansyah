@@ -2,7 +2,7 @@
 
 ## OBJECTIVE
 
-Pembuatans sebuah halaman menggunakan HTML, CSS/Framework CSS, daan JS. Halaman ini berada pada satu index html sehingga tidak perlu melakukan routing. Beberapa hal yang perlu untuk dibuaat ada di bagian kriteria.
+Pembuatan sebuah halaman menggunakan HTML, CSS/Framework CSS, daan JS. Halaman ini berada pada satu index html sehingga tidak perlu melakukan routing. Beberapa hal yang perlu untuk dibuaat ada di bagian kriteria.
 
 ## CRITERIA
 
