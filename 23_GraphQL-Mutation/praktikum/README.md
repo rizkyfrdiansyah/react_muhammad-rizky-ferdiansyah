@@ -9,3 +9,7 @@ Perlu diingat :
 
 - Yang menjadi poin penilaian adalah pemasangan mutation pada aplikasi kalian
 - Jika kalian menggunakan aplikasi serupa (passenger/todo list) yang menerapkan fitur CRUD tidak masalah. Dengan syarat, lakukan komunikasi ke mentor terkait hal tersebut.
+
+## PILGAN
+
+![image](../screenshoots/pilgan%20graphQL%20Mutation.png)
