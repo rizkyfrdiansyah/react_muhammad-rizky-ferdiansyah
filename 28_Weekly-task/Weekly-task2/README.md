@@ -10,12 +10,18 @@ Mengubah project yang telah kalian buat pada weekly task 1 ke dalam react. Websi
    a. Buat folder project yang berisikan kode yang kalian buat
    b. Buat folder screenshot dan masukkan hasil dari kode yang kalian buat
 
+![image](/28_Weekly-task/Weekly-task2/screenshot/structure%20folder%20.png)
+
 2. Ubah lah kode yang kalian tulis pada weekly task 1 ke dalam react
 3. Buatlah berfungsi component contact us kalian buat, sehingga ketika setiap form diisi dan button submit di klik akan memunculkan alert/modal yang beriskan data yang kalian masukkan ke dalam form
+
+![image](/28_Weekly-task/Weekly-task2/screenshot/contact%20us.png)
 
 4. Buatlah sebuah halaman about us (dengan react) yang memiliki kriteria
    a. Memilik text about us
    b. Memiliki gambar tentang about us
    c. Memilik text yang mendeskripsikan tentang about us
+
+![image](/28_Weekly-task/Weekly-task2/screenshot/about.png)
 
 5. Gabungkan welcome page, contact us, about us, dan footer yang telah kalian buat menjadi one page website
