@@ -4,15 +4,8 @@ class Footer extends React.Component {
   render() {
     return (
       <div>
-        {/* <header>
-          <h1>Responsive Footer</h1>
-          <h2>Have a look</h2>
-          <h2>
-            <span>On Below Footer</span>
-          </h2>
-        </header> */}
         <main />
-        <footer>
+        <footer id="footer">
           <div className="container">
             <div className="content_footer">
               <div className="profil">
@@ -80,16 +73,16 @@ class Footer extends React.Component {
                 <ul className="service_header">
                   <li className="service_name">Explore</li>
                   <li>
-                    <a href="https://www.google.com/search?q=About+Us&oq=About+Us&aqs=chrome..69i57j0i512l4j69i60l3.449j0j7&sourceid=chrome&ie=UTF-8">About Us</a>
+                    <a href="#about">About Us</a>
                   </li>
                   <li>
-                    <a href="https://www.blogger.com/about/?hl=id">Blog</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="https://www.karir.com/">Career</a>
+                    <a href="#contact">Contact Us</a>
                   </li>
                   <li>
-                    <a href="https://www.google.com/search?q=Join+Us&oq=Join+Us&aqs=chrome..69i57j46i175i199i512j46i512j0i512l7.693j0j4&sourceid=chrome&ie=UTF-8">Join Us</a>
+                    <a href="/">Join Us</a>
                   </li>
                 </ul>
               </div>

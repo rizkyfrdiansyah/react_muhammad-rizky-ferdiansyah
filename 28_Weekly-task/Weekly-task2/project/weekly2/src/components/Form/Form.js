@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Swal from "sweetalert2";
 
 const Form = () => {
@@ -32,7 +32,6 @@ const Form = () => {
 
   const [data, setData] = useState(dataKosong);
   const [errMsg, setErrMsg] = useState(baseError);
-  const suratKesungguhan = useRef(null);
   const regexLetterOnly = /^[A-Za-z ]*$/;
   const regexNumberOnly = /^[0-9]*$/;
   const regexForEmail = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
@@ -104,18 +103,20 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (errMsg.namaLengkap !== "" || errMsg.email !== "" || errMsg.noHandphone !== "") {
-      alert("Data Pendaftar Tidak Sesuai");
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+      });
     } else {
-      Swal.fire("Good job!", "You clicked the button!", "success");
+      Swal.fire("Berhasil Gaes!", "Data Pendaftar Telah Sesuai", "success");
       setData(dataKosong);
-      suratKesungguhan.current.value = "";
     }
   };
 
   const resetData = () => {
     setData(dataKosong);
     setErrMsg(baseError);
-    suratKesungguhan.current.value = "";
   };
 
   return (
@@ -130,7 +131,24 @@ const Form = () => {
         <label>No Handphone:</label>
         <input type="tel" name="noHandphone" required placeholder="0823xxxxxxxx" onChange={handleInput} value={data.noHandphone} minLength="9" maxLength="14" />
 
-        <label>Harapan untuk Coding Bootcamp ini:</label>
+        <label>Latar Belakang Pendidikan:</label>
+        <div>
+          <input type="radio" name="pendidikan" value="IT" checked={data.pendidikan.IT} onChange={handleInput} required /> IT
+          <input type="radio" name="pendidikan" value="NonIT" checked={data.pendidikan.NonIT} onChange={handleInput} /> Non IT
+        </div>
+
+        <label>Kelas coding yang dipilih:</label>
+        <select name="program" required onChange={handleInput} value={data.program}>
+          <option value="">Pilih Salah Satu Program</option>
+          <option value="backend">Coding Backend with Golang</option>
+          <option value="frontend">Coding Frontend with ReactJS</option>
+          <option value="fullstack">Fullstack Developer</option>
+          <option value="designer">Professional UI/UX Designer</option>
+          <option value="flutter">Mastering Flutter</option>
+          <option value="quality">Quality Engineer</option>
+        </select>
+
+        <label>Apa yang bisa kami bantu ?</label>
         <textarea cols="20" rows="5" name="harapan" onChange={handleInput} value={data.harapan}></textarea>
 
         <p className="errMsg">{errMsg.namaLengkap}</p>
