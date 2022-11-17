@@ -4,13 +4,13 @@ class Footer extends React.Component {
   render() {
     return (
       <div>
-        <header>
+        {/* <header>
           <h1>Responsive Footer</h1>
           <h2>Have a look</h2>
           <h2>
             <span>On Below Footer</span>
           </h2>
-        </header>
+        </header> */}
         <main />
         <footer>
           <div className="container">
@@ -78,7 +78,7 @@ class Footer extends React.Component {
                   </li>
                 </ul>
                 <ul className="service_header">
-                  <li className="service_name">Company</li>
+                  <li className="service_name">Explore</li>
                   <li>
                     <a href="https://www.google.com/search?q=About+Us&oq=About+Us&aqs=chrome..69i57j0i512l4j69i60l3.449j0j7&sourceid=chrome&ie=UTF-8">About Us</a>
                   </li>
@@ -86,7 +86,7 @@ class Footer extends React.Component {
                     <a href="https://www.blogger.com/about/?hl=id">Blog</a>
                   </li>
                   <li>
-                    <a href="/contact">Contact Us</a>
+                    <a href="https://www.karir.com/">Career</a>
                   </li>
                   <li>
                     <a href="https://www.google.com/search?q=Join+Us&oq=Join+Us&aqs=chrome..69i57j46i175i199i512j46i512j0i512l7.693j0j4&sourceid=chrome&ie=UTF-8">Join Us</a>
