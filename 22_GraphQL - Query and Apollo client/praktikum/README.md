@@ -7,6 +7,14 @@ https://github.com/muhammad-muchson/GrapQL_Query_task_starter
 2. Lakukan query pada database kalian. Sehingga, ketika aplikasi pertama kalian dibuka, aplikasi kalian langsung melakukan fetch data dan menampilkan pada layar.
 3. Buatlah fitur melakukan query berdasarkan inputan dari user, sehingga dapat menampilkan data sesuai dengan input berdasarkan id.
 
+## getAllData
+
+![image](../screenshoots/query%20GetAllPassenger.png)
+
+## getDataByID
+
+![image](../screenshoots/query%20GetAllPassengerById.png)
+
 # PILGAN
 
 ![image](/22_GraphQL%20-%20Query%20and%20Apollo%20client/screenshoots/pilgan%20graphQL%20-%20Query%20and%20Apollo%20client.png)

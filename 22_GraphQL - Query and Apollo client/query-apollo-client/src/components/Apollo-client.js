@@ -1,10 +1,10 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
-
+import CONST from "../utils/constan";
 const client = new ApolloClient({
-  uri: "https://flexible-snapper-99.hasura.app/v1/graphql",
+  uri: CONST.GRAPHQL_BASE_URL,
   cache: new InMemoryCache(),
   headers: {
-    "x-hasura-admin-secret": "NJY8shcLo3vFwJvmYJe5tOQB2YqOMY7sexnBnifVqCINNidlJ7cbzJ15X51tnbpu",
+    "x-hasura-admin-secret": CONST.HASURA_SECRET,
   },
 });
 
