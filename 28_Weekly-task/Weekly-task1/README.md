@@ -20,8 +20,8 @@ Pembuatan sebuah halaman menggunakan HTML, CSS/Framework CSS, daan JS. Halaman i
 
 ## DESKTOP VERSION
 
-![image](/28_Weekly-task/Weekly-task1/screenshot/desktop.png)
+![image](screenshot/Weekly_footer.png)
 
 ## MOBILE VERSION
 
-![image](/28_Weekly-task/Weekly-task1/screenshot/mobile.png)
+![image](screenshot/mobile.png)

@@ -1,22 +1,10 @@
-import "./App.css";
-import About from "./components/About/About";
-import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
-
+import logo from "./logo.svg";
+import HomePage from "./pages/HomePage";
+import bg from "./assets/bg.jpg";
 function App() {
   return (
-    <div className="App">
-      <NavigationBar />
-      <div className="about">
-        <About />
-      </div>
-      <div className="contact">
-        <Home />
-      </div>
-      <div className="footer">
-        <Footer />
-      </div>
+    <div className="backdrop-blur-sm bg-white/30" style={{ backgroundImage: `url(${bg})` }}>
+      <HomePage />
     </div>
   );
 }

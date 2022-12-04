@@ -1,82 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FOURSQUARE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/bb6b15c5b9.js" crossorigin="anonymous"></script>
   </head>
-
-  <body>
-    <header>
-      <h1>Responsive Footer</h1>
-      <h2>Have a look</h2>
-      <h2><span>On Below Footer</span></h2>
-    </header>
-    <main></main>
-    <footer>
+  <body style="background-color: rgb(110, 110, 182); background-image: url('./assets/img/bg.jpg')">
+    <nav class="navbar navbar-expand-lg bg-transparent">
       <div class="container">
-        <div class="content_footer">
-          <div class="profil">
-            <div class="logo_area">
-              <img src="./assets/img/logo.png" alt="" />
-              <span class="logo_name">FOURSQUARE</span>
-              <button id="dark-mode" class="moon"><i class="bx bxs-moon"></i></button>
-              <button id="light-mode" class="sun hide"><i class="bx bxs-sun"></i></button>
-            </div>
-            <div class="desc_area">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa rem aspernatur, id voluptates quas dolores assumenda dignissimos laboriosam exercitationem eligendi velit, vel magni molestiae ipsum porro officiis consequuntur
-                libero iste.
-              </p>
-            </div>
-            <div class="social_media">
-              <a href="https://www.linkedin.com/in/muhammad-rizky-ferdiansyah-602671226/"><i class="bx bxl-linkedin-square"></i></a>
-              <a href="https://www.instagram.com/rizkyfrdiansyah_08/"><i class="bx bxl-facebook-square"></i></a>
-              <a href="https://www.facebook.com/robin.perdi"><i class="bx bxl-instagram"></i></a>
-              <a href="https://github.com/rizkyfrdiansyah"><i class="bx bxl-github"></i></a>
-            </div>
-          </div>
-          <div class="service_area">
-            <ul class="service_header">
-              <li class="service_name">Services</li>
-              <li><a href="https://www.integraindonesia.co.id/">IT Consultant</a></li>
-              <li><a href="https://blog.rumahweb.com/development-adalah/">Development</a></li>
-              <li><a href="https://cloud.google.com/">Cloud</a></li>
-              <li><a href="https://devopssupport.com/">DevOps & Support</a></li>
-            </ul>
-            <ul class="service_header">
-              <li class="service_name">Programs</li>
-              <li><a href="https://www.figma.com/design/">UI/UX</a></li>
-              <li><a href="https://reactjs.org/">REACT JS</a></li>
-              <li><a href="https://go.dev/">GO-LANG</a></li>
-              <li><a href="https://flutter.dev/">FLUTTER</a></li>
-            </ul>
-            <ul class="service_header">
-              <li class="service_name">Company</li>
-              <li><a href="https://www.google.com/search?q=About+Us&oq=About+Us&aqs=chrome..69i57j0i512l4j69i60l3.449j0j7&sourceid=chrome&ie=UTF-8">About Us</a></li>
-              <li><a href="https://www.blogger.com/about/?hl=id">Blog</a></li>
-              <li><a href="https://contacts.google.com/">Contact</a></li>
-              <li><a href="https://www.google.com/search?q=Join+Us&oq=Join+Us&aqs=chrome..69i57j46i175i199i512j46i512j0i512l7.693j0j4&sourceid=chrome&ie=UTF-8">Join Us</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <div class="footer_bottom">
-          <div class="copy_right">
-            <i class="bx bxs-copyright"></i>
-            <span>2022 FOURSQUARE</span>
-          </div>
-          <div class="terms">
-            <a href="https://www.termsfeed.com/blog/sample-terms-of-use-template/">Terms of Use</a>
-            <a href="https://www.clickadu.com/privacy?gclid=CjwKCAiA68ebBhB-EiwALVC-Nrl5LVOi7Owht82ou9yDL5cy03cgFeryiG0FrYgS25TGZz46F8U_yRoCgmsQAvD_BwE">Privacy Policy</a>
-            <a href="https://support.google.com/accounts/answer/61416?hl=id&co=GENIE.Platform%3DAndroid">Cookie</a>
-          </div>
+        <a class="navbar-brand" href="#">FOURSQUARE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <main class="d-flex justify-content-center mt-5" style="min-height: 100vh">
+      <div class="text-center">
+        <h1>WELCOME TO OUR WEBSITE</h1>
+        <h3>Have a look On Below Footer</h3>
+        <button class="btn btn-primary">Join Now</button>
+      </div>
+    </main>
+    <footer class="text-center text-lg-start text-muted" style="background-color: #283754">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>FOURSQUARE</span>
+        </div>
+
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="" style="color: #e2eaeb">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-gem me-3"></i>FOURSQUARE</h6>
+              <p>Sebuah situs web jejaring sosial berbasis lokasi yang bergantung pada perangkat lunak untuk peralatan bergerak.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">UI/UX</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Golang</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">FLUTTER</a>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>Indonesia</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                bulskydong@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i>081358585</p>
+              <p><i class="fas fa-print me-3"></i> 081358585</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">FOURSQUARE</a>
+      </div>
     </footer>
-    <script src="./assets/js/main.js"></script>
+    <!-- choose one -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
