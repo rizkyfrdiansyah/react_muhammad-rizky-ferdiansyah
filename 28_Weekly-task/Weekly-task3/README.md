@@ -15,3 +15,5 @@ Masih meneruskan weekly task 2 dan buatlah beberapa fitur lain. Kalian diharuska
    a. Struktur terdiri dari id, createAt, nama, dan avatar (img)
 
 4. Gunakan global state yag kalian pelajari dalam kelas untuk pengolahan data dann method/function yang kalian gunakan
+
+![image](/Weekly-task3/screenshot/weekly%203.png)
