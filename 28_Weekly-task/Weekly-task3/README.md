@@ -16,4 +16,4 @@ Masih meneruskan weekly task 2 dan buatlah beberapa fitur lain. Kalian diharuska
 
 4. Gunakan global state yag kalian pelajari dalam kelas untuk pengolahan data dann method/function yang kalian gunakan
 
-![image](/Weekly-task3/screenshot/weekly%203.png)
+![image](./screenshot/weekly%203.png)
