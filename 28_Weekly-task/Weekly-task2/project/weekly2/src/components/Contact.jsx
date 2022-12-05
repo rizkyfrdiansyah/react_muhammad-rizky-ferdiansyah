@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 function Contact() {
   const [form, setForm] = useState({
@@ -41,6 +42,7 @@ function Contact() {
     Nama lengkap: ${form.firstName + " " + form.lastName}
     Email: ${form.email}
     Message: ${form.help}`);
+    Swal.fire("Good job!", "You have successfully sent!", "success");
   };
 
   return (
