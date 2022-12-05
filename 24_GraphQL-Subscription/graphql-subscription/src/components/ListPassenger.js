@@ -1,7 +1,7 @@
-import ListItem from "./ListItem";
-import { useLazyQuery, useQuery } from "@apollo/client";
-import { GetAllPassengers, GetPassengerById } from "../Config/Queries";
+import { useLazyQuery } from "@apollo/client";
 import { useState } from "react";
+import { GetPassengerById } from "../graphql/Query";
+import ListItem from "./ListItem";
 
 function ListPassenger({ data, loading, error, deletePassangers }) {
   const [passenger, { data: dataPassID, loading: loadPass, error: errorPass }] = useLazyQuery(GetPassengerById);
@@ -25,7 +25,7 @@ function ListPassenger({ data, loading, error, deletePassangers }) {
 
   return (
     <div>
-      <input className="inputan" value={passengerID} onChange={(e) => setPassengerID(e.target.value)}></input>
+      <input className="inputan" value={passengerID} type="text" onChange={(e) => setPassengerID(e.target.value)}></input>
       <button onClick={onGetPassengerDataById}>Get Data</button>
       <table cellPadding="5px" cellSpacing="0" style={{ margin: "auto" }}>
         <thead bgcolor="red">

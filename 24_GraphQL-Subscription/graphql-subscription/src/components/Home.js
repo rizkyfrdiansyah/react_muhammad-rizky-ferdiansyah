@@ -2,11 +2,14 @@ import Header from "./Header";
 import ListPassenger from "./ListPassenger";
 import PassengerInput from "./PassengerInput";
 import React from "react";
-import { gql, useMutation, useQuery } from "@apollo/client";
-import { DeletePassangers, GetAllPassengers, InsertPassangers } from "../Config/Queries";
+import { gql, useMutation, useQuery, useSubscription } from "@apollo/client";
+import { GetAllPassengers } from "../graphql/Query";
+import { DeletePassangers, InsertPassangers } from "../graphql/Mutations";
+import { Passenger } from "../graphql/Subscriptions";
 
 function Home() {
-  const { data, loading, error } = useQuery(GetAllPassengers);
+  const { data, loading, error } = useSubscription(Passenger);
+  console.log(data);
   const [insertPassanger, { loading: insertLoading }] = useMutation(InsertPassangers, {
     refetchQueries: [GetAllPassengers],
   });
@@ -16,7 +19,7 @@ function Home() {
   });
 
   const tambahPenumpang = (newUser) => {
-    insertPassanger({
+    InsertPassangers({
       variables: newUser,
     });
   };
